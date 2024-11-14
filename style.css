@@ -161,7 +161,7 @@ body {
     font-weight: 400;
     font-style: italic;
 }
-.section-countdown p, .section-countdown h2, .countdown-circle span, .section h2, .section p, .section-gits h2, .section-gifts p, .section h3{
+.section-countdown p, .section-countdown h2, .countdown-circle span, .section h2, .section p, .section-gits h2, .section-gifts p, .section h3, .section-gifts h2{
     color: var(--color-1);
     font-family: var(--font-1);
     font-weight: 400;
@@ -497,79 +497,133 @@ footer {
         width: 200px;
         height: 200px;
         }
-    .sealh h2{
+        .sealh h2{
             font-size: 60px;
         }
-    .section-music{
-        margin-top: -90px;
-        height: 500px;
-    }
-    .section-main h1, .section-main h2 {
-        font-size: 3em;
-    }
-
-    .section-countdown h1,
-    .section-countdown h2,
-    .section-b h1,
-    h1,
-    .section h2,
-    .section h3 {
-        font-size: 2.5em;
-    }
-
-    .section p,
-    .section-countdown p,
-    .section-calendar a {
-        font-size: 1.5em;
-    }
+        .sintillo{
+            height: 500px;
+            margin-bottom: -80px;
+        }
+        .sintillo h1{
+            font-size: 120px;
+            margin-top: 10px;
+        }
+        .sintillo h2{
+            font-size: 150px;
+            margin-top: 280px;
+        }
+        .section-0, .section-1, .section-2, .section-3, .section-4{
+            height: 800px;
+        }
+        .section-countdown p, .section-countdown h2, .section p, .section-gifts p, .section-filter p{
+            margin: 0;
+            font-size: 50px;
+            padding: 15px;
+        }
+        .section-countdown h1{
+            font-size: 140px;
+        }
+        .section-music{
+            margin-top: -90px;
+            height: 500px;
+        }
+        .section-music h2{
+            font-size: 50px;
+        }
+        .countdown-circle{
+            height: 180px;
+            width: 180px;
+        }
+        .countdown-circle span{
+            font-size: 40px;
+        }
+        .section-calendar{
+            padding: 20px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            width: 50%;
+        }
+        .section-calendar a {
+            font-size: 40px;
+        }
+        .section h2, .section-gifts h2, .section h3, .section-filter h2, .section-quote h1{
+            font-size: 70px;
+        }
+        .section span{
+            font-size: 60px;
+        }
+        button{
+            font-size: 50px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        .galeria img{
+            height: 300px;
+            width: 300px;
+        }
+        .section-social-icons i{
+            font-size: 55px;
+            margin-top: 50px;
+        }
+        .section-logo img{
+            margin-top: 0px;
+        }
 }
 @media (min-width: 1025px) {
     /* Laptop Styles */
-    .seal{
-    width: 200px;
-    height: 200px;
+    .seal {
+        width: 200px;
+        height: 200px;
     }
-    .sealh h2{
+    .seal h2 {
         font-size: 60px;
     }
-    .sintillo{
+    .sintillo {
         height: 500px;
         margin-bottom: -80px;
     }
-    .sintillo h1{
+    .sintillo h1 {
         font-size: 120px;
         margin-top: 10px;
     }
-    .sintillo h2{
+    .sintillo h2 {
         font-size: 150px;
         margin-top: 280px;
     }
-    .section-0, .section-1, .section-2, .section-3, .section-4{
+    .section-0, .section-1, .section-2, .section-3, .section-4 {
         height: 600px;
+        width: 100%; /* Asegurarse de que ocupe todo el ancho */
+        display: flex;
+        justify-content: center; /* Centrando horizontalmente */
+        align-items: center; /* Centrando verticalmente */
     }
-    .section-countdown p, .section-countdown h2, .section p, .section-gifts p, .section-filter p{
+    .section-countdown p, .section-countdown h2, .section p, .section-gifts p, .section-filter p {
         margin: 0;
         font-size: 50px;
         padding: 15px;
     }
-    .section-countdown h1{
+    .section-countdown h1 {
         font-size: 140px;
     }
-    .section-music{
+    .section-music {
         margin-top: -90px;
         height: 500px;
+        width: 100%; /* Asegurarse de que ocupe todo el ancho */
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .section-music h2{
+    .section-music h2 {
         font-size: 50px;
     }
-    .countdown-circle{
+    .countdown-circle {
         height: 180px;
         width: 180px;
     }
-    .countdown-circle span{
+    .countdown-circle span {
         font-size: 40px;
     }
-    .section-calendar{
+    .section-calendar {
         padding: 20px;
         margin-top: 100px;
         margin-bottom: 100px;
@@ -578,28 +632,29 @@ footer {
     .section-calendar a {
         font-size: 40px;
     }
-    .section h2, .section-gifts h2, .section h3, .section-filter h2, .section-quote h1{
+    .section h2, .section-gifts h2, .section h3, .section-filter h2, .section-quote h1 {
         font-size: 80px;
     }
-    .section span{
+    .section span {
         font-size: 60px;
     }
-    button{
+    button {
         font-size: 50px;
         margin-top: 40px;
         margin-bottom: 40px;
     }
-    .galeria img{
+    .galeria img {
         height: 300px;
         width: 300px;
     }
-    .section-social-icons i{
+    .section-social-icons i {
         font-size: 55px;
         margin-top: 50px;
     }
-    .section-logo img{
+    .section-logo img {
         margin-top: 0px;
     }
 }
+
 
 
