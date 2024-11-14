@@ -161,7 +161,7 @@ body {
     font-weight: 400;
     font-style: italic;
 }
-.section-countdown p, .section-countdown h2, .countdown-circle span, .section h2, .section p, .section-gits h2, .section-gifts p, .section h3, .section-gifts h2{
+.section-countdown p, .section-countdown h2, .countdown-circle span, .section h2, .section p, .section-gits h2, .section-gifts p, .section h3, .section-gifts h2, .section-filter p{
     color: var(--color-1);
     font-family: var(--font-1);
     font-weight: 400;
